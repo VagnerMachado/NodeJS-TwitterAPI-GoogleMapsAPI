@@ -209,7 +209,7 @@ function connection_handler(req, res) {
 			console.log("Current Time for Comparisons :", Number(now));
 
 			//CASE THE CACHED DATA IS VALID
-			if (now > cached_Time) {
+			if (now > cached_Time) {   //change to < when you enter your api keys
 
 				data_cache = true;
 				console.log("Cached search valid, serving cached Twitter data");
