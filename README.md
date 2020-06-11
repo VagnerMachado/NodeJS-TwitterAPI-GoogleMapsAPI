@@ -68,6 +68,8 @@ index.js - the file with the instructions to instantiate the server for this ass
 
 **PS:** You can pull and use the cached searches to test the site. Case you acquire the premium twitter API key/secret (to access geo location) and a Google Maps (static map) API, please add those to the indicated directories mentioned above and revert the ```javascript if (now > cached_Time)``` to ``` javascript if (now < cached_Time)``` on line 212 of index.js to revert to a cache expiration of 15 minutes.   
 
+Lastly, make sure to check the 'User Form' and 'Sample Result' to see the server form to the user and the served page for a Twitter search of 'keyword' 'cats' in 'English'.    
+
 ---
 
 *Vagner*   
